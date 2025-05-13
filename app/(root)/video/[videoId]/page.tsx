@@ -1,8 +1,6 @@
 import { redirect } from "next/navigation";
 
-import  VideoDetailHeader  from "@/components/VideoDetailHeader";
-import  VideoInfo  from "@/components/VideoInfo";
-import  VideoPlayer  from "@/components/VideoPlayer";
+import { VideoDetailHeader, VideoInfo, VideoPlayer } from "@/components";
 import { getTranscript, getVideoById } from "@/lib/actions/video";
 
 const page = async ({ params }: Params) => {

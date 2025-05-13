@@ -1,4 +1,5 @@
-import Navbar  from "@/components/Navbar";
+import { Navbar } from "@/components";
+
 const RootLayout = ({
   children,
 }: Readonly<{
